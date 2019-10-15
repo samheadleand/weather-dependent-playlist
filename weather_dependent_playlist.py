@@ -93,8 +93,8 @@ playlist_name = 'weather_playlist'+ str(date.today())
 print(playlist_name)
 """
 playlist_description = ''
-#SPOTIPY_CLIENT_ID='c18c86887bfd445bbff29a8bc1e000f9'
-#SPOTIPY_CLIENT_SECRET='a6971a033cd34801a4e21bb0b9baecdf'
+#SPOTIPY_CLIENT_ID=''
+#SPOTIPY_CLIENT_SECRET=''
 SPOTIPY_REDIRECT_URI='http://localhost/'
 my_scope='playlist-modify-public'
 token = util.prompt_for_user_token(username,scope=my_scope, redirect_uri=SPOTIPY_REDIRECT_URI)
